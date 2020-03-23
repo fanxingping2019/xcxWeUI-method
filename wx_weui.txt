@@ -1,0 +1,19 @@
+第一步：
+在创建的小程序项目根目录下打开cmd命令窗口或者cd进入跟目录都行
+
+第二步：输入npm init
+然后会提示确定，yes回车键
+
+第三步：然后输入npm install --save weui-miniprogram，然后会提示添加了一个包
+出现一个绿色的0成功安装
+
+然后微信开发工具打开项目，会多了一个文件夹和一个json文件，package.json文件里的参数就是命令行时配置的，所以要改的自便。
+
+第四步：然后点击工具选择构建npm
+之后在全局css文件app.wxss导入WeUI的样式，这样全部page可以用到了
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+第五步：使用
+在.json中引入要使用的组件
+"mp-checkbox": "../../miniprogram_npm/weui-miniprogram/checkbox/checkbox"
+在wxml里面输入组件即可
+<mp-checkbox label="你好啊盆友！"></mp-checkbox>
