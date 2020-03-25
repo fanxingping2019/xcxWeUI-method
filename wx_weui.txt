@@ -1,7 +1,7 @@
 第一步：
 在创建的小程序项目根目录下打开cmd命令窗口或者cd进入跟目录都行
 
-第二步：输入npm init
+第二步：输入npm install
 然后会提示确定，yes回车键
 
 第三步：然后输入npm install --save weui-miniprogram，然后会提示添加了一个包
