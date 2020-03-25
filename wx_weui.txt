@@ -14,6 +14,6 @@
 @import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
 第五步：使用
 在.json中引入要使用的组件
-"mp-checkbox": "../../miniprogram_npm/weui-miniprogram/checkbox/checkbox"
+"mp-checkbox":" ../../ miniprogram_npm / weui-miniprogram / checkbox / checkbox"
 在wxml里面输入组件即可
 <mp-checkbox label="你好啊盆友！"></mp-checkbox>
